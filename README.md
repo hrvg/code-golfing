@@ -24,7 +24,9 @@ This project uses [R](https://www.r-project.org/) and [Python](https://www.pytho
 	+ `git add .`
 	+ `git commit -m "informative commit message"`
 	+ `git push origin branch-name`
+<<<<<<< dfd2b12e08a49c2347a192a191c692d455ca7d51
 
+<<<<<<< 1833d96f3a3be873a9b954e9e36933bf9d78729a
 ## How to update to the new question
 
 From your branch: (`git status` or `git checkout branch-name` to be sure):
@@ -36,6 +38,11 @@ From your branch: (`git status` or `git checkout branch-name` to be sure):
 6. `git checkout branch-name`
 7. `git rebase master`
 
+=======
+=======
+	
+>>>>>>> commit test
+>>>>>>> commit test
 ## Code Golf 1: Tinkering with data
 
 The instructions are in the `CG1_tinkering_with_data.*` files that you can found in their respective programming language folder.
