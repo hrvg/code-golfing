@@ -13,9 +13,6 @@ def read_streamflow_data(file = './data/sacramento-bendbridge-paleo.csv'):
 
 ### MAIN ###
 
-
-# TODO
-
 # 1. add a column to the dataframe and convert the annual flow from acre-foot to cubic meters 
 df = read_streamflow_data()
 cms = df['Flow_AF']*0.0283168
@@ -45,6 +42,7 @@ for index, flow in enumerate(df['Flow_CMS']):
 d = {'Century':century_col, 'Mean':mean, 'Median':median, 'StDev':stdev}
 stats = pd.DataFrame(d)
 # (opt. add those three timeseries to the plot created in 2)
+# ain't got time for that, no thanks
 
 # 4. re-order the data-frame so that the data are ordered by increasing mean flow
 
