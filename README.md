@@ -27,6 +27,7 @@ This project uses [R](https://www.r-project.org/) and [Python](https://www.pytho
 
 ## How to update to the new question
 
+From your branch: (`git status` or `git checkout branch-name` to be sure):
 1. `git rebase master`
 2. `git add .`
 3. `git rebase --continue`
