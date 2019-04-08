@@ -25,6 +25,16 @@ This project uses [R](https://www.r-project.org/) and [Python](https://www.pytho
 	+ `git commit -m "informative commit message"`
 	+ `git push origin branch-name`
 
+## How to update to the new question
+
+1. `git rebase master`
+2. `git add .`
+3. `git rebase --continue`
+4. `git checkout master`
+5. `git pull origin master`
+6. `git checkout branch-name`
+7. `git rebase master`
+
 ## Code Golf 1: Tinkering with data
 
 The instructions are in the `CG1_tinkering_with_data.*` files that you can found in their respective programming language folder.
