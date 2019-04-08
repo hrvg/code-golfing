@@ -10,7 +10,7 @@ read_streamflow_data <- function(file = './data/sacramento-bendbridge-paleo.csv'
 
 ######### FUNCTIONS #########
 get_ind_drought <- function(start = 2012, end = 2016, data = df, column = "Year") which(data[[column]] %in% start:end)
-get_dry <- function(data = df, column = "Flow_AF", start = 2012, end = 2015, window_len = 2, range = FALSE, cumulative = FALSE){
+get_dry <- function(data = df, column = "Flow_AF", start = 2012, end = 2016, window_len = 2, range = FALSE, cumulative = FALSE){
 	dry <- rep("wet", nrow(data))
 	if (!range){
 		if (!cumulative){
