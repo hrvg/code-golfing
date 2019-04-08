@@ -24,6 +24,7 @@ This project uses [R](https://www.r-project.org/) and [Python](https://www.pytho
 	+ `git add .`
 	+ `git commit -m "informative commit message"`
 	+ `git push origin branch-name`
+
 ## Code Golf 1: Tinkering with data
 
 The instructions are in the `CG1_tinkering_with_data.*` files that you can found in their respective programming language folder.
@@ -35,6 +36,19 @@ Use this function template to perform all the tasks required in the `TODO`sectio
 Searching the manual, googling and searching Stack Overflow is recommended.
 
 Estimated work-load: 20 min.
+
+## Code Golf 2: Identifying Dry Years
+
+The instructions are in the `CG2_identifying_dry_years.*` files that you can found in their respective programming language folder.
+The file `./data/sacramento-bendbridge-paleo.csv` contains yearly flow data from 900 to 2017 for the Sacramento River at Bend Bridge, in acre-feet. 
+This is a very important location for water supply in California!
+A function to read the data file is already defined in each of the script.
+Use this function template to perform all the tasks required in the `TODO` section.
+
+Searching the manual, googling and searching Stack Overflow is recommended.
+
+Estimated work-load: 30 min.
+
 
 ## License
 
